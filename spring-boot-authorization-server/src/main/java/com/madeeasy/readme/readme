@@ -1,0 +1,33 @@
+----------------------------- https://www.youtube.com/watch?v=rVAqh-VDw2o&list=PLbuI9mmWSoUGBGKrD5W4xYVs6zdt9rW_k&index=17 -------------------
+
+open postman and follow the below steps ::
+#1 : Let GET , POST, PUT etc let it blank
+#2 : Type : OAuth2.0
+#3 : Grant Type : Authorization Code (with PKCE)
+#4 : Callback URL : http://127.0.0.1:8080/login/oauth2/code/client and uncheck Authorize using browser
+#5 : Auth URL : http://localhost:9000/oauth2/authorize
+#6 : Access Token URL : http://localhost:9000/oauth2/token
+#7 : Client ID : client
+#8 : Client Secret : secret
+#9 : Code Challenge Method : SHA-256
+#10 : Code Verifier : let it blank
+#11 : State : let it blank
+#12 : Client Authentication : Send as Basic Auth Header
+#13 : click on Get New Access Token
+#14 : username : database user name
+      password : database user password
+----------------------------------------------------------END-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
