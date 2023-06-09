@@ -11,7 +11,7 @@ open postman and follow the below steps ::
 #8 : Client Secret : secret
 #9 : Code Challenge Method : SHA-256
 #10 : Code Verifier : let it blank
-#11 : Scope : give all scopes in this case openid read profile
+#11 : Scope : give all scopes if neded ex : openid read profile
 #12 : State : let it blank
 #13 : Client Authentication : Send as Basic Auth Header
 #14 : click on Get New Access Token
