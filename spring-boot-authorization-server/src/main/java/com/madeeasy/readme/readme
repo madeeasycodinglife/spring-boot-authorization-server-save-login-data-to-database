@@ -11,10 +11,11 @@ open postman and follow the below steps ::
 #8 : Client Secret : secret
 #9 : Code Challenge Method : SHA-256
 #10 : Code Verifier : let it blank
-#11 : State : let it blank
-#12 : Client Authentication : Send as Basic Auth Header
-#13 : click on Get New Access Token
-#14 : username : database user name
+#11 : Scope : give all scopes in this case openid read profile
+#12 : State : let it blank
+#13 : Client Authentication : Send as Basic Auth Header
+#14 : click on Get New Access Token
+#15 : username : database user name
       password : database user password
 ----------------------------------------------------------END-------------------------------------------------------------------------
 
